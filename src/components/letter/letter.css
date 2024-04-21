@@ -2,7 +2,7 @@
 
 .envelope {
     position: relative;
-    width: 600px;
+    width: 100%;
     height: 400px;
     margin: 50px auto;
     cursor: pointer;
@@ -65,7 +65,7 @@
   
   .letter.fullSize {
     top: 0%;
-    height: 100%;  /* Expand to full screen */
+    height: 100%;  
     opacity: 1;
     z-index: -2;
     transform: scale(1);  /* Scale up if necessary */

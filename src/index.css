@@ -7,6 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #191D24 ;
 }
+@media (min-width: 768px) {
+  .envelope {
+    position: relative;
+    
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    margin: 50px 20%;
+    cursor: pointer;
+    perspective: 1000px;
+    background: url('https://images.pexels.com/photos/2478248/pexels-photo-2478248.jpeg?auto=compress&cs=tinysrgb&w=600');
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.6s ease;
+  }
+
+  .letter {
+    font-size: 16px; /* Adjust as needed */
+    padding: 15px; /* Adjust as needed */
+  }
+}
 
 
 code {
